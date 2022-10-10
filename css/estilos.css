@@ -1,0 +1,80 @@
+*{
+    margin-top:9px;
+}
+body{
+    background-color:#fadda8;
+}
+.icono_usuario{
+    display:block;
+    padding:5px 0px;
+    margin:5px 25px;
+    max-width: 90%;
+    max-height: 350px;
+    width:auto;
+    height:auto;
+}
+
+.titulo_formulario{
+    text-align:center;
+    padding:10px;
+    margin:20px 0px 0px 0px;
+    font-size:30px;
+}
+
+.login{
+    width:30%;
+    height: 600px;
+    max-width: auto;
+    max-height: auto;
+    display:block;
+    padding:30px;
+    margin:50px 550px;
+    border:1px solid black;
+    font-size:20px;
+    border-radius:10px;
+    background-color:white;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace
+}
+
+.usuario{
+    padding:30px 0px 0px;
+    margin:0px 15px;
+    width:90%;
+    height:20px;
+    max-width: auto;
+    max-height: auto;
+}
+
+.contraseña{
+    padding:20px 0px 0px 0px;
+    margin:50px 15px 90px;
+    width:90%;
+    height:20px;
+    max-width: auto;
+    max-height: auto;
+}
+
+.cuerpo_formulario input{
+    padding:5px;
+    margin:5px;
+    width:90%;
+    height:20px;
+    max-width: auto;
+    max-height: auto;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.boton_enviar{
+    display:block;
+    max-width: auto;
+    max-height: auto;
+    width:20%;
+    height:30px;
+    margin:auto;
+    border-radius:4px;
+    border: 1px solid black;
+}
+
+
