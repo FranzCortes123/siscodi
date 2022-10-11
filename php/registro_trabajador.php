@@ -59,11 +59,10 @@
         echo "
         <script>
             alert('Error al crear usuario, intentalo de nuevo');
-            window.location = '../login.php';
+            window.location = '../registro.html';
         </script>
         ";
     }
     mysqli_close($conexion);
-
 
 ?>

@@ -1,5 +1,4 @@
 <?php
-
     session_start();
 
     include 'conexion_bd.php';
