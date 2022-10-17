@@ -1,7 +1,7 @@
 
-    <?php require('./templates/header.php') ?>
+    <?php require('layout/header.php') ?>
     
-    <?php require('./templates/nav.php') ?>
+    <?php require('layout/nav.php') ?>
     <main>
     <h1>Control de inventario</h1>
     <p>Lorem</p>

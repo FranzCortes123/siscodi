@@ -1,18 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro</title>
-    <link rel="stylesheet" href="assets/css/panel.css"/>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-</head>
-<body>
 
-    <?php require ("templates/header.php") ?>
 
-    <?php require ("templates/nav.php") ?>
+    <?php require ("layout/header.php") ?>
+
+    <?php require ("layout/nav.php") ?>
     <h1>Registro Trabajador</h1>
     <form action="php/registro_trabajador.php" method="POST" autocomplete="off">
         <label for="cargo">Cargo</label>
