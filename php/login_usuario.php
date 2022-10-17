@@ -13,7 +13,7 @@
 
     if (mysqli_num_rows($validacion) > 0){
         $_SESSION['usuario'] = $usuario;
-        header ("location: ../perfil.php");
+        header ("location: ../panel.php");
         exit;
     }else{
         echo'
